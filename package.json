@@ -42,5 +42,9 @@
   "keywords": [
     "eslint",
     "lint"
+  ],
+  "files": [
+    "index.js",
+    "rules/"
   ]
 }

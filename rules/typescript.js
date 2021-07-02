@@ -1,6 +1,12 @@
-const { hasPackage } = require('../lib/utils')
+let hasTypescript
 
-const hasTypescript = hasPackage('typescript')
+try {
+  require('typescript')
+
+  hasTypescript = true
+} catch (e) {
+  hasTypescript = false
+}
 
 module.exports = !hasTypescript
   ? {}

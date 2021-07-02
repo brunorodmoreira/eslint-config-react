@@ -20,7 +20,7 @@
     "url": "https://github.com/brunorodmoreira/eslint-config/issues"
   },
   "homepage": "https://github.com/brunorodmoreira/eslint-config#readme",
-  "devDependencies": {
+  "dependencies": {
     "@geut/chan": "2.x",
     "@typescript-eslint/eslint-plugin": "^4.28.1",
     "@typescript-eslint/parser": "^4.28.1",

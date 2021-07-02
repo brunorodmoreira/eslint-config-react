@@ -1,7 +1,6 @@
 module.exports = {
   extends: [
     'eslint:recommended',
-    'plugin:vtex/recommended',
     './rules/prettier.js',
     './rules/errors.js',
     './rules/node.js',
@@ -12,7 +11,6 @@ module.exports = {
     './rules/typescript.js',
     './rules/tests.js',
   ],
-  plugins: ['vtex'],
   parserOptions: {
     ecmaVersion: 2019,
     sourceType: 'module',

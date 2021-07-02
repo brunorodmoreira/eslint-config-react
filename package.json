@@ -1,0 +1,23 @@
+{
+  "name": "@brunormoreira/eslint-config",
+  "version": "0.0.0",
+  "description": "Personal eslint configuration",
+  "main": "index.js",
+  "scripts": {
+    "version": "chan release ${npm_package_version} && git add CHANGELOG.md",
+    "postversion": "git push -u && git push --tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brunorodmoreira/eslint-config.git"
+  },
+  "author": "Bruno Moreira <bruno@brunormoreira.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brunorodmoreira/eslint-config/issues"
+  },
+  "homepage": "https://github.com/brunorodmoreira/eslint-config#readme",
+  "devDependencies": {
+    "@geut/chan": "2.x"
+  }
+}

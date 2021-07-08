@@ -1,4 +1,4 @@
-# @brunormoreira/eslint-config
+# @brunormoreira/eslint-config-react
 
 Provides my personal `.eslintrc` shared configuration.
 
@@ -8,12 +8,12 @@ Depends on `eslint`.
 
 Using `yarn`:
 ```json
-yarn add -D @brunormoreira/eslint-config typescript prettier
+yarn add -D @brunormoreira/eslint-config-react typescript prettier
 ```
 
 Using `npm`:
 ```json
-npm install -D @brunormoreira/eslint-config typescript prettier
+npm install -D @brunormoreira/eslint-config-react typescript prettier
 ```
 
 ## Usage
@@ -27,4 +27,4 @@ Or add it manually to `extends` array (or string) inside `.eslintrc`.
 
 ## Reference
 
-* Inspired by [eslint-config-vtex](https://www.npmjs.com/package/eslint-config-vtex)
+* Inspired by [eslint-config-vtex-react](https://www.npmjs.com/package/eslint-config-vtex-react)

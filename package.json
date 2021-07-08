@@ -1,7 +1,7 @@
 {
-  "name": "@brunormoreira/eslint-config",
+  "name": "@brunormoreira/eslint-config-react",
   "version": "0.1.3",
-  "description": "Personal eslint configuration",
+  "description": "Personal eslint configuration for React projects",
   "publishConfig": {
     "access": "public"
   },
@@ -17,9 +17,9 @@
   "author": "Bruno Moreira <bruno@brunormoreira.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/brunorodmoreira/eslint-config/issues"
+    "url": "https://github.com/brunorodmoreira/eslint-config-react/issues"
   },
-  "homepage": "https://github.com/brunorodmoreira/eslint-config#readme",
+  "homepage": "https://github.com/brunorodmoreira/eslint-config-react#readme",
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^4.28.1",
     "@typescript-eslint/parser": "^4.28.1",

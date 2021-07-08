@@ -1,24 +1,19 @@
 module.exports = {
   extends: [
-    'eslint:recommended',
-    './rules/prettier.js',
-    './rules/errors.js',
-    './rules/node.js',
-    './rules/style.js',
-    './rules/variables.js',
-    './rules/best-practices.js',
-    './rules/imports.js',
-    './rules/typescript.js',
-    './rules/tests.js',
+    '@brunormoreira',
+    './rules/react.js',
+    './rules/react-hooks.js',
+    './rules/react-a11y.js',
   ],
-  parserOptions: {
-    ecmaVersion: 2019,
-    sourceType: 'module',
-  },
-  env: {
-    es6: true,
-  },
-  globals: {
-    __DEV__: true,
-  },
+  overrides: [
+    {
+      files: '**/*.{ts,tsx,js,jsx}',
+      excludedFiles: ['*{_,.}{test,spec}.{ts,tsx,js,jsx}', '__tests__/**/*'],
+      // activate these rules in react files not related to testing
+      rules: {
+        // prevent people from importing native Node libs (url/path/crypto, etc) on browser env
+        'import/no-nodejs-modules': 'error',
+      },
+    },
+  ],
 }
